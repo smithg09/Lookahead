@@ -1,5 +1,5 @@
 # Lookahead
-Look Ahead GraphQL fields with recursive joins (`$lookup`) using Mongo aggregation pipelines for Apollo queries, thus avoiding N+1 problem in GraphQL.
+Look Ahead GraphQL fields with recursive joins (`$lookup`) using Mongo aggregation pipelines for Apollo queries, thus eliminating N+1 problem in GraphQL completely.
 ## Future
 I am building Version 2 of this library which would allow you to recursively convert Nested GraphQL request into N Level Nested Lookups Queries, Along with support for different stages such as Match, Limit & Sort.
 You may wanna look into [mongo-aggregation-builder](https://github.com/smithg09/mongo-aggregation-builder), an easier and readable way of building mongodb aggregation pipelines.   
